@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "696507625173",
+    "project_id": "rapim-telkom-apps"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696507625173:android:e8bc7c15f702131a",
+        "android_client_info": {
+          "package_name": "sigma.bodmeeting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Al2dyk-spL8p5CWte5TaojimI9XYLh4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="110dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_shadow">
+
+    <ImageView
+
+        android:id="@+id/grid_image"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo_rapim"
+        android:contentDescription=""
+        android:scaleType="centerCrop"></ImageView>
+
+</LinearLayout>

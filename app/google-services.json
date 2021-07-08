@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "243455485951",
+    "firebase_url": "https://rapimtelkomgroup-2566e.firebaseio.com",
+    "project_id": "rapimtelkomgroup-2566e",
+    "storage_bucket": "rapimtelkomgroup-2566e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243455485951:android:157cab5ce0b09727",
+        "android_client_info": {
+          "package_name": "sigma.telkomgroup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243455485951-1151s0q44hcvcnu2h7ibu00c51todavf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sigma.telkomgroup",
+            "certificate_hash": "ba59285e6c6a84fbab2863e5064e6dc5e29fcac5"
+          }
+        },
+        {
+          "client_id": "243455485951-jsp1fo5ehc9mjt3f48h6m8n9bufp0492.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sigma.telkomgroup",
+            "certificate_hash": "ba677ff389600b7e0e25d044ccd35ef0e1daca70"
+          }
+        },
+        {
+          "client_id": "243455485951-80isi1e65v4g4cs8r6mtrvfuuo0tsfel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sigma.telkomgroup",
+            "certificate_hash": "33eb449994ec7753df20008eff0b1a4a44adb4a1"
+          }
+        },
+        {
+          "client_id": "243455485951-60kguqseovp4l4rj8qpns0du2fapvj7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAu7afVqdXVzstMUdBQ_q_XZBa8GNP8PI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243455485951-60kguqseovp4l4rj8qpns0du2fapvj7l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "243455485951-ne1u1amjrsargfaft3lo07ftq9d3v341.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sigma.RapimApps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

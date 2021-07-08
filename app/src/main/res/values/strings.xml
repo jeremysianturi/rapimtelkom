@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">RAPIM TelkomGroup</string>
+<!--    <string name="app_name">RapimCorsec</string>-->
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_news</item>
+        <item>@string/nav_item_rundown</item>
+        <item>@string/nav_item_venue</item>
+        <item>@string/nav_item_content</item>
+        <item>@string/nav_item_selfie</item>
+        <item>@string/nav_item_shoutbox</item>
+        <item>@string/nav_item_feedback</item>
+        <item>@string/nav_item_setting</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+
+    <string name="nav_item_news">News</string>
+    <string name="nav_item_rundown">Rundown</string>
+    <string name="nav_item_venue">Venue</string>
+    <string name="nav_item_content">Content</string>
+    <string name="nav_item_selfie">Selfie</string>
+    <string name="nav_item_shoutbox">Shoutbox</string>
+    <string name="nav_item_feedback">Feedback</string>
+    <string name="nav_item_setting">Settings</string>
+    <string name="nav_item_profile">Profile</string>
+    <string name="nav_item_gallery">Gallery</string>
+    <string name="nav_item_qrcode">QR CODE</string>
+    <string name="nav_item_logout">Logout</string>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <string name="version_device">3.4.23</string>
+
+    <string name="option_menu_search">Search</string>
+    <string name="user_icon">user icon</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

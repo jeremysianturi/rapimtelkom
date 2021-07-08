@@ -1,0 +1,772 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sigma.telkomgroup"
+4    android:versionCode="3454"
+5    android:versionName="3.4.54" >
+6
+7    <uses-sdk
+7-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:6:5-17
+8        android:minSdkVersion="23"
+8-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:6:5-17
+9        android:targetSdkVersion="29" />
+9-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:6:5-17
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- android:minSdkVersion="14" -->
+15-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:12:5-79
+15-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:12:22-76
+16    <!-- android:targetSdkVersion="14" /> -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:14:5-67
+17-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:14:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:15:5-79
+18-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:15:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:16:5-76
+19-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:16:22-73
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:17:5-81
+20-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:17:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:18:5-80
+21-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:18:22-77
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:19:5-75
+22-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:19:22-72
+23    <uses-permission android:name="android.permission.CAMERA" /> <!-- Keeps the processor from sleeping when a message is received. -->
+23-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:20:5-65
+23-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:20:22-62
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:21:5-68
+24-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:21:22-65
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/897dc20b6b0bab5f97edcd17c481acd3/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/897dc20b6b0bab5f97edcd17c481acd3/jetified-play-services-maps-16.1.0/AndroidManifest.xml:27:9-41
+28        android:required="true" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+28-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/897dc20b6b0bab5f97edcd17c481acd3/jetified-play-services-maps-16.1.0/AndroidManifest.xml:28:9-32
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:24:5-26:36
+30        android:name="android.hardware.camera"
+30-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:25:9-47
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:26:9-33
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:27:5-29:36
+33        android:name="android.hardware.camera.front"
+33-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:28:9-53
+34        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+34-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:29:9-33
+35    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:32:5-34:36
+37        android:name="android.hardware.camera.autofocus"
+37-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:33:9-57
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:34:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:35:5-37:36
+40        android:name="android.hardware.camera.flash"
+40-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:36:9-53
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:37:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:38:5-40:36
+43        android:name="android.hardware.screen.landscape"
+43-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:39:9-57
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:40:9-33
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:41:5-43:36
+46        android:name="android.hardware.wifi"
+46-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:42:9-45
+47        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+47-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:43:9-33
+48    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+48-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:26:5-82
+48-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:26:22-79
+49    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+49-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:26:5-110
+49-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:26:22-107
+50
+51    <application
+51-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:23:5-279:19
+52        android:allowBackup="true"
+52-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:24:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.2.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/963cc2744d0ec88861a35d0fa1c64531/core-1.2.0/AndroidManifest.xml:24:18-86
+54        android:debuggable="true"
+55        android:extractNativeLibs="false"
+56        android:icon="@drawable/rapimtelkomgroupicon"
+56-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:25:9-54
+57        android:label="@string/app_name"
+57-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:26:9-41
+58        android:largeHeap="true"
+58-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:27:9-33
+59        android:networkSecurityConfig="@xml/network_config"
+59-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:28:9-60
+60        android:supportsRtl="true"
+60-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:29:9-35
+61        android:testOnly="true"
+62        android:theme="@style/AppTheme"
+62-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:30:9-40
+63        android:usesCleartextTraffic="true" >
+63-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:31:9-44
+64        <activity
+64-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:33:9-37:20
+65            android:name="sigma.telkomgroup.controller.ControllerChangePassword"
+65-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:34:13-81
+66            android:screenOrientation="portrait"
+66-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:35:13-49
+67            android:theme="@style/MyMaterialTheme" >
+67-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:36:13-51
+68        </activity>
+69        <activity
+69-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:38:9-43:54
+70            android:name="sigma.telkomgroup.controller.ControllerQuestionHistory"
+70-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:39:13-82
+71            android:configChanges="orientation"
+71-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:40:13-48
+72            android:label="@string/app_name"
+72-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:41:13-45
+73            android:screenOrientation="portrait"
+73-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:42:13-49
+74            android:theme="@style/MyMaterialTheme" />
+74-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:43:13-51
+75        <activity
+75-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:44:9-49:54
+76            android:name="sigma.telkomgroup.controller.ControllereDetailRundown"
+76-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:45:13-81
+77            android:configChanges="orientation"
+77-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:46:13-48
+78            android:label="@string/app_name"
+78-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:47:13-45
+79            android:screenOrientation="portrait"
+79-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:48:13-49
+80            android:theme="@style/MyMaterialTheme" />
+80-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:49:13-51
+81        <!--
+82             The API key for Google Maps-based APIs is defined as a string resource.
+83             (See the file "res/values/google_maps_api.xml").
+84             Note that the API key is linked to the encryption key used to sign the APK.
+85             You need a different API key for each encryption key, including the release key that is used to
+86             sign the APK for publishing.
+87             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+88        -->
+89        <meta-data
+89-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:58:9-60:55
+90            android:name="com.google.android.geo.API_KEY"
+90-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:59:13-58
+91            android:value="@string/google_maps_key" />
+91-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:60:13-52
+92
+93        <activity
+93-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:62:9-64:59
+94            android:name="sigma.telkomgroup.controller.MapsActivity"
+94-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:63:13-69
+95            android:label="@string/title_activity_maps" />
+95-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:64:13-56
+96
+97        <service android:name="sigma.telkomgroup.utils.firebase.MyFirebaseMessagingService" >
+97-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:66:9-70:19
+97-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:66:18-92
+98            <intent-filter>
+98-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:67:13-69:29
+99                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+99-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:68:17-78
+99-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:68:25-75
+100            </intent-filter>
+101        </service>
+102        <service android:name="sigma.telkomgroup.utils.firebase.MyFirebaseInstanceIDService" >
+102-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:71:9-75:19
+102-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:71:18-93
+103            <intent-filter>
+103-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:72:13-74:29
+104                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+104-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:73:17-80
+104-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:73:25-77
+105            </intent-filter>
+106        </service>
+107
+108        <receiver
+108-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:77:9-84:20
+109            android:name="sigma.telkomgroup.utils.firebase.FirebaseDataReceiver"
+109-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:78:13-81
+110            android:exported="true"
+110-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:79:13-36
+111            android:permission="com.google.android.c2dm.permission.SEND" >
+111-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:80:13-73
+112            <intent-filter>
+112-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:81:13-83:29
+113                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+113-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:82:17-81
+113-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:82:25-78
+114            </intent-filter>
+115        </receiver>
+116
+117        <activity
+117-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:86:9-97:20
+118            android:name="sigma.telkomgroup.controller.SplashScreen"
+118-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:87:13-69
+119            android:configChanges="orientation"
+119-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:88:13-48
+120            android:label="@string/app_name"
+120-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:89:13-45
+121            android:screenOrientation="portrait"
+121-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:90:13-49
+122            android:theme="@android:style/Theme.NoTitleBar" >
+122-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:91:13-60
+123            <intent-filter>
+123-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:92:13-96:29
+124                <action android:name="android.intent.action.MAIN" />
+124-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:93:17-69
+124-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:93:25-66
+125
+126                <category android:name="android.intent.category.LAUNCHER" />
+126-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:95:17-77
+126-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:95:27-74
+127            </intent-filter>
+128        </activity>
+129        <activity
+129-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:98:9-103:54
+130            android:name="sigma.telkomgroup.controller.ControllerHome"
+130-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:99:13-71
+131            android:configChanges="orientation"
+131-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:100:13-48
+132            android:label="@string/app_name"
+132-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:101:13-45
+133            android:screenOrientation="portrait"
+133-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:102:13-49
+134            android:theme="@style/MyMaterialTheme" />
+134-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:103:13-51
+135        <activity
+135-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:104:9-109:54
+136            android:name="sigma.telkomgroup.controller.ControllerNews"
+136-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:105:13-71
+137            android:configChanges="orientation"
+137-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:106:13-48
+138            android:label="@string/app_name"
+138-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:107:13-45
+139            android:screenOrientation="portrait"
+139-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:108:13-49
+140            android:theme="@style/MyMaterialTheme" />
+140-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:109:13-51
+141        <activity
+141-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:110:9-115:54
+142            android:name="sigma.telkomgroup.controller.ControllerGame2019"
+142-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:111:13-75
+143            android:configChanges="orientation"
+143-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:112:13-48
+144            android:label="@string/app_name"
+144-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:113:13-45
+145            android:screenOrientation="portrait"
+145-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:114:13-49
+146            android:theme="@style/MyMaterialTheme" />
+146-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:115:13-51
+147        <activity
+147-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:116:9-121:54
+148            android:name="sigma.telkomgroup.controller.ControllerGalleryDetail"
+148-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:117:13-80
+149            android:configChanges="orientation"
+149-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:118:13-48
+150            android:label="@string/app_name"
+150-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:119:13-45
+151            android:screenOrientation="portrait"
+151-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:120:13-49
+152            android:theme="@style/MyMaterialTheme" />
+152-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:121:13-51
+153        <activity
+153-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:122:9-127:54
+154            android:name="sigma.telkomgroup.controller.ControllerGallery"
+154-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:123:13-74
+155            android:configChanges="orientation"
+155-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:124:13-48
+156            android:label="@string/app_name"
+156-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:125:13-45
+157            android:screenOrientation="portrait"
+157-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:126:13-49
+158            android:theme="@style/MyMaterialTheme" />
+158-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:127:13-51
+159        <activity
+159-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:128:9-133:54
+160            android:name="sigma.telkomgroup.controller.ControllerAgendaRundown"
+160-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:129:13-80
+161            android:configChanges="orientation"
+161-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:130:13-48
+162            android:label="@string/app_name"
+162-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:131:13-45
+163            android:screenOrientation="portrait"
+163-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:132:13-49
+164            android:theme="@style/MyMaterialTheme" />
+164-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:133:13-51
+165        <activity
+165-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:134:9-139:54
+166            android:name="sigma.telkomgroup.controller.ControllerAgendaContent"
+166-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:135:13-80
+167            android:configChanges="orientation"
+167-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:136:13-48
+168            android:label="@string/app_name"
+168-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:137:13-45
+169            android:screenOrientation="portrait"
+169-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:138:13-49
+170            android:theme="@style/MyMaterialTheme" />
+170-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:139:13-51
+171        <activity
+171-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:140:9-145:54
+172            android:name="sigma.telkomgroup.controller.ControllerAgendaVenue"
+172-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:141:13-78
+173            android:configChanges="orientation"
+173-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:142:13-48
+174            android:label="@string/app_name"
+174-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:143:13-45
+175            android:screenOrientation="portrait"
+175-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:144:13-49
+176            android:theme="@style/MyMaterialTheme" />
+176-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:145:13-51
+177        <activity
+177-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:146:9-151:54
+178            android:name="sigma.telkomgroup.controller.ControllerFeedback"
+178-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:147:13-75
+179            android:configChanges="orientation"
+179-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:148:13-48
+180            android:label="@string/app_name"
+180-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:149:13-45
+181            android:screenOrientation="portrait"
+181-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:150:13-49
+182            android:theme="@style/MyMaterialTheme" />
+182-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:151:13-51
+183        <activity
+183-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:152:9-157:54
+184            android:name="sigma.telkomgroup.controller.ControllerSelfie"
+184-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:153:13-73
+185            android:configChanges="orientation"
+185-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:154:13-48
+186            android:label="@string/app_name"
+186-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:155:13-45
+187            android:screenOrientation="portrait"
+187-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:156:13-49
+188            android:theme="@style/MyMaterialTheme" />
+188-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:157:13-51
+189        <activity
+189-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:158:9-163:54
+190            android:name="sigma.telkomgroup.controller.ControllerShoutbox"
+190-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:159:13-75
+191            android:configChanges="orientation"
+191-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:160:13-48
+192            android:label="@string/app_name"
+192-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:161:13-45
+193            android:screenOrientation="portrait"
+193-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:162:13-49
+194            android:theme="@style/MyMaterialTheme" />
+194-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:163:13-51
+195        <activity
+195-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:164:9-169:54
+196            android:name="sigma.telkomgroup.controller.ControllerSetting"
+196-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:165:13-74
+197            android:configChanges="orientation"
+197-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:166:13-48
+198            android:label="@string/app_name"
+198-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:167:13-45
+199            android:screenOrientation="portrait"
+199-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:168:13-49
+200            android:theme="@style/MyMaterialTheme" />
+200-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:169:13-51
+201        <activity
+201-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:170:9-175:54
+202            android:name="sigma.telkomgroup.controller.ControllerAbout"
+202-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:171:13-72
+203            android:configChanges="orientation"
+203-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:172:13-48
+204            android:label="@string/app_name"
+204-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:173:13-45
+205            android:screenOrientation="portrait"
+205-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:174:13-49
+206            android:theme="@style/MyMaterialTheme" />
+206-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:175:13-51
+207        <activity
+207-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:176:9-181:54
+208            android:name="sigma.telkomgroup.controller.ControllerProfil"
+208-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:177:13-73
+209            android:configChanges="orientation"
+209-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:178:13-48
+210            android:label="@string/app_name"
+210-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:179:13-45
+211            android:screenOrientation="portrait"
+211-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:180:13-49
+212            android:theme="@style/MyMaterialTheme" />
+212-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:181:13-51
+213        <activity
+213-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:182:9-187:54
+214            android:name="sigma.telkomgroup.controller.ControllerQRCode"
+214-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:183:13-73
+215            android:configChanges="orientation"
+215-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:184:13-48
+216            android:label="@string/app_name"
+216-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:185:13-45
+217            android:screenOrientation="portrait"
+217-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:186:13-49
+218            android:theme="@style/MyMaterialTheme" />
+218-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:187:13-51
+219        <activity
+219-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:188:9-193:54
+220            android:name="sigma.telkomgroup.controller.MainActivity"
+220-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:189:13-69
+221            android:configChanges="orientation"
+221-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:190:13-48
+222            android:label="@string/app_name"
+222-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:191:13-45
+223            android:screenOrientation="portrait"
+223-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:192:13-49
+224            android:theme="@style/MyMaterialTheme" />
+224-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:193:13-51
+225        <activity
+225-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:194:9-200:70
+226            android:name="sigma.telkomgroup.controller.ControllerLogin"
+226-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:195:13-72
+227            android:configChanges="orientation"
+227-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:196:13-48
+228            android:label="@string/app_name"
+228-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:197:13-45
+229            android:screenOrientation="portrait"
+229-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:198:13-49
+230            android:theme="@style/MyMaterialTheme"
+230-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:199:13-51
+231            android:windowSoftInputMode="adjustResize|stateHidden" />
+231-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:200:13-67
+232        <activity
+232-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:201:9-206:54
+233            android:name="sigma.telkomgroup.controller.ControllerDetailNews"
+233-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:202:13-77
+234            android:configChanges="orientation"
+234-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:203:13-48
+235            android:label="@string/app_name"
+235-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:204:13-45
+236            android:screenOrientation="portrait"
+236-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:205:13-49
+237            android:theme="@style/MyMaterialTheme" />
+237-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:206:13-51
+238        <activity
+238-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:207:9-212:54
+239            android:name="sigma.telkomgroup.controller.ControllerRundown"
+239-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:208:13-74
+240            android:configChanges="orientation"
+240-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:209:13-48
+241            android:label="@string/app_name"
+241-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:210:13-45
+242            android:screenOrientation="portrait"
+242-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:211:13-49
+243            android:theme="@style/MyMaterialTheme" />
+243-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:212:13-51
+244        <activity
+244-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:213:9-218:54
+245            android:name="sigma.telkomgroup.controller.ControllerContent"
+245-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:214:13-74
+246            android:configChanges="orientation"
+246-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:215:13-48
+247            android:label="@string/app_name"
+247-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:216:13-45
+248            android:screenOrientation="portrait"
+248-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:217:13-49
+249            android:theme="@style/MyMaterialTheme" />
+249-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:218:13-51
+250        <activity
+250-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:219:9-224:54
+251            android:name="sigma.telkomgroup.controller.ControllerZoom"
+251-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:220:13-54
+252            android:configChanges="orientation"
+252-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:221:13-48
+253            android:label="@string/app_name"
+253-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:222:13-45
+254            android:screenOrientation="portrait"
+254-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:223:13-49
+255            android:theme="@style/MyMaterialTheme" />
+255-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:224:13-51
+256        <activity
+256-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:225:9-230:54
+257            android:name="sigma.telkomgroup.controller.ControllerVenue"
+257-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:226:13-72
+258            android:configChanges="orientation"
+258-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:227:13-48
+259            android:label="@string/app_name"
+259-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:228:13-45
+260            android:screenOrientation="portrait"
+260-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:229:13-49
+261            android:theme="@style/MyMaterialTheme" />
+261-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:230:13-51
+262        <activity
+262-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:231:9-236:54
+263            android:name="sigma.telkomgroup.controller.ControllerVenueZoom"
+263-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:232:13-76
+264            android:configChanges="orientation"
+264-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:233:13-48
+265            android:label="@string/app_name"
+265-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:234:13-45
+266            android:screenOrientation="portrait"
+266-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:235:13-49
+267            android:theme="@style/MyMaterialTheme" />
+267-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:236:13-51
+268        <activity
+268-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:237:9-242:54
+269            android:name="sigma.telkomgroup.controller.ControllerPollingChoice"
+269-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:238:13-80
+270            android:configChanges="orientation"
+270-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:239:13-48
+271            android:label="@string/app_name"
+271-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:240:13-45
+272            android:screenOrientation="portrait"
+272-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:241:13-49
+273            android:theme="@style/MyMaterialTheme" />
+273-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:242:13-51
+274        <activity
+274-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:243:9-248:54
+275            android:name="sigma.telkomgroup.controller.MultiTouchActivity"
+275-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:244:13-75
+276            android:configChanges="orientation"
+276-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:245:13-48
+277            android:label="@string/app_name"
+277-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:246:13-45
+278            android:screenOrientation="portrait"
+278-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:247:13-49
+279            android:theme="@style/MyMaterialTheme" />
+279-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:248:13-51
+280        <activity
+280-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:249:9-253:54
+281            android:name="sigma.telkomgroup.controller.ControllerGames"
+281-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:250:13-72
+282            android:configChanges="orientation"
+282-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:251:13-48
+283            android:screenOrientation="portrait"
+283-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:252:13-49
+284            android:theme="@style/MyMaterialTheme" />
+284-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:253:13-51
+285        <activity
+285-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:254:9-258:54
+286            android:name="sigma.telkomgroup.controller.ControllerPanel"
+286-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:255:13-72
+287            android:configChanges="orientation"
+287-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:256:13-48
+288            android:screenOrientation="portrait"
+288-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:257:13-49
+289            android:theme="@style/MyMaterialTheme" />
+289-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:258:13-51
+290        <activity
+290-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:259:9-263:54
+291            android:name="sigma.telkomgroup.controller.ControllerQRScanner"
+291-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:260:13-76
+292            android:configChanges="orientation"
+292-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:261:13-48
+293            android:screenOrientation="portrait"
+293-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:262:13-49
+294            android:theme="@style/MyMaterialTheme" />
+294-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:263:13-51
+295        <activity
+295-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:264:9-268:54
+296            android:name="sigma.telkomgroup.controller.ControllerWebview"
+296-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:265:13-74
+297            android:configChanges="orientation"
+297-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:266:13-48
+298            android:screenOrientation="portrait"
+298-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:267:13-49
+299            android:theme="@style/MyMaterialTheme" /> <!-- Firebase Notifications -->
+299-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:268:13-51
+300        <service android:name="sigma.telkomgroup.utils.firebase.MyFirebaseMessagingService" >
+300-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:66:9-70:19
+300-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:66:18-92
+301            <intent-filter>
+301-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:67:13-69:29
+302                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+302-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:68:17-78
+302-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:68:25-75
+303            </intent-filter>
+304        </service>
+305        <service android:name="sigma.telkomgroup.utils.firebase.MyFirebaseInstanceIDService" >
+305-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:71:9-75:19
+305-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:71:18-93
+306            <intent-filter>
+306-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:72:13-74:29
+307                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+307-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:73:17-80
+307-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:73:25-77
+308            </intent-filter>
+309        </service>
+310        <!--
+311             FirebaseMessagingService performs security checks at runtime,
+312             but set to not exported to explicitly avoid allowing another app to call it.
+313        -->
+314        <service
+314-->[com.google.firebase:firebase-messaging:17.6.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3ab372acec24ddddbf032451261b7a1d/jetified-firebase-messaging-17.6.0/AndroidManifest.xml:28:9-34:19
+315            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+315-->[com.google.firebase:firebase-messaging:17.6.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3ab372acec24ddddbf032451261b7a1d/jetified-firebase-messaging-17.6.0/AndroidManifest.xml:29:13-82
+316            android:exported="false" >
+316-->[com.google.firebase:firebase-messaging:17.6.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3ab372acec24ddddbf032451261b7a1d/jetified-firebase-messaging-17.6.0/AndroidManifest.xml:30:13-37
+317            <intent-filter android:priority="-500" >
+317-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:67:13-69:29
+318                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+318-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:68:17-78
+318-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:68:25-75
+319            </intent-filter>
+320        </service> <!-- Needs to be explicitly declared on P+ -->
+321        <uses-library
+321-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/897dc20b6b0bab5f97edcd17c481acd3/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+322            android:name="org.apache.http.legacy"
+322-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/897dc20b6b0bab5f97edcd17c481acd3/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+323            android:required="false" />
+323-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/897dc20b6b0bab5f97edcd17c481acd3/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+324
+325        <provider
+325-->[com.squareup.picasso:picasso:2.71828] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/71af7373619df5c34b76f956600bebd1/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+326            android:name="com.squareup.picasso.PicassoProvider"
+326-->[com.squareup.picasso:picasso:2.71828] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/71af7373619df5c34b76f956600bebd1/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+327            android:authorities="sigma.telkomgroup.com.squareup.picasso"
+327-->[com.squareup.picasso:picasso:2.71828] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/71af7373619df5c34b76f956600bebd1/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+328            android:exported="false" />
+328-->[com.squareup.picasso:picasso:2.71828] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/71af7373619df5c34b76f956600bebd1/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+329
+330        <activity
+330-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:46:9-52:63
+331            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+331-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:47:13-74
+332            android:clearTaskOnLaunch="true"
+332-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:48:13-45
+333            android:screenOrientation="sensorLandscape"
+333-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:49:13-56
+334            android:stateNotNeeded="true"
+334-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:50:13-42
+335            android:theme="@style/zxing_CaptureTheme"
+335-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:51:13-54
+336            android:windowSoftInputMode="stateAlwaysHidden" />
+336-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/3fec791c28c5b61cf895724b664e033a/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:52:13-60
+337
+338        <service
+338-->[com.google.android.gms:play-services-measurement-api:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/058f8417e15624fb7753c6989c00ad58/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:27:9-33:19
+339            android:name="com.google.firebase.components.ComponentDiscoveryService"
+339-->[com.google.android.gms:play-services-measurement-api:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/058f8417e15624fb7753c6989c00ad58/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:28:13-84
+340            android:exported="false" >
+340-->[com.google.android.gms:play-services-measurement-api:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/058f8417e15624fb7753c6989c00ad58/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:29:13-37
+341            <meta-data
+341-->[com.google.android.gms:play-services-measurement-api:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/058f8417e15624fb7753c6989c00ad58/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:30:13-32:85
+342                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+342-->[com.google.android.gms:play-services-measurement-api:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/058f8417e15624fb7753c6989c00ad58/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:31:17-139
+343                android:value="com.google.firebase.components.ComponentRegistrar" />
+343-->[com.google.android.gms:play-services-measurement-api:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/058f8417e15624fb7753c6989c00ad58/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:32:17-82
+344            <meta-data
+344-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:32:13-34:85
+345                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+345-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:33:17-96
+346                android:value="com.google.firebase.components.ComponentRegistrar" />
+346-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:34:17-82
+347        </service>
+348
+349        <receiver
+349-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:37:9-44:20
+350            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+350-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:38:13-78
+351            android:exported="true"
+351-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:39:13-36
+352            android:permission="com.google.android.c2dm.permission.SEND" >
+352-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:40:13-73
+353            <intent-filter>
+353-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:81:13-83:29
+354                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+354-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:82:17-81
+354-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:82:25-78
+355            </intent-filter>
+356        </receiver>
+357        <!--
+358             FirebaseInstanceIdService performs security checks at runtime,
+359             no need for explicit permissions despite exported="true"
+360        -->
+361        <service
+361-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:50:9-56:19
+362            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+362-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:51:13-77
+363            android:exported="true" >
+363-->[com.google.firebase:firebase-iid:17.1.2] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/1f1f94029c5e4abeacd9e12aff7fb159/jetified-firebase-iid-17.1.2/AndroidManifest.xml:52:13-36
+364            <intent-filter android:priority="-500" >
+364-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:72:13-74:29
+365                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+365-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:73:17-80
+365-->/Users/jeremysianturi/Desktop/jer/telkomsigma/android/RapimTelkomgroup/Android/BodMeeting - TelkomGroup-2020/app/src/main/AndroidManifest.xml:73:25-77
+366            </intent-filter>
+367        </service>
+368
+369        <provider
+369-->[com.google.firebase:firebase-common:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/933d8bb84e51e4528f3443f6b8b99faf/jetified-firebase-common-16.1.0/AndroidManifest.xml:12:9-16:39
+370            android:name="com.google.firebase.provider.FirebaseInitProvider"
+370-->[com.google.firebase:firebase-common:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/933d8bb84e51e4528f3443f6b8b99faf/jetified-firebase-common-16.1.0/AndroidManifest.xml:13:13-77
+371            android:authorities="sigma.telkomgroup.firebaseinitprovider"
+371-->[com.google.firebase:firebase-common:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/933d8bb84e51e4528f3443f6b8b99faf/jetified-firebase-common-16.1.0/AndroidManifest.xml:14:13-72
+372            android:exported="false"
+372-->[com.google.firebase:firebase-common:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/933d8bb84e51e4528f3443f6b8b99faf/jetified-firebase-common-16.1.0/AndroidManifest.xml:15:13-37
+373            android:initOrder="100" />
+373-->[com.google.firebase:firebase-common:16.1.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/933d8bb84e51e4528f3443f6b8b99faf/jetified-firebase-common-16.1.0/AndroidManifest.xml:16:13-36
+374
+375        <activity
+375-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/ac60155fbb7c5ea2b03abf58148c1e9b/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+376            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+376-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/ac60155fbb7c5ea2b03abf58148c1e9b/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+377            android:exported="false"
+377-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/ac60155fbb7c5ea2b03abf58148c1e9b/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+378            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+378-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/ac60155fbb7c5ea2b03abf58148c1e9b/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+379
+380        <receiver
+380-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:29:9-33:20
+381            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+381-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:30:13-85
+382            android:enabled="true"
+382-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:31:13-35
+383            android:exported="false" >
+383-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:32:13-37
+384        </receiver>
+385        <receiver
+385-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:34:9-42:20
+386            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+386-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:35:13-100
+387            android:enabled="true"
+387-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:36:13-35
+388            android:exported="true"
+388-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:37:13-36
+389            android:permission="android.permission.INSTALL_PACKAGES" >
+389-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:38:13-69
+390            <intent-filter>
+390-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:39:13-41:29
+391                <action android:name="com.android.vending.INSTALL_REFERRER" />
+391-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:40:17-79
+391-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:40:25-76
+392            </intent-filter>
+393        </receiver>
+394
+395        <service
+395-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:44:9-47:40
+396            android:name="com.google.android.gms.measurement.AppMeasurementService"
+396-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:45:13-84
+397            android:enabled="true"
+397-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:46:13-35
+398            android:exported="false" />
+398-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:47:13-37
+399        <service
+399-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:48:9-52:72
+400            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+400-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:49:13-87
+401            android:enabled="true"
+401-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:50:13-35
+402            android:exported="false"
+402-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:51:13-37
+403            android:permission="android.permission.BIND_JOB_SERVICE" />
+403-->[com.google.android.gms:play-services-measurement:16.4.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/f7e0550b88decf9ee85741bf5c89423b/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:52:13-69
+404
+405        <meta-data
+405-->[com.google.android.gms:play-services-basement:16.2.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/bd10d4219e4b3140146196883cc34cce/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+406            android:name="com.google.android.gms.version"
+406-->[com.google.android.gms:play-services-basement:16.2.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/bd10d4219e4b3140146196883cc34cce/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+407            android:value="@integer/google_play_services_version" />
+407-->[com.google.android.gms:play-services-basement:16.2.0] /Users/jeremysianturi/.gradle/caches/transforms-2/files-2.1/bd10d4219e4b3140146196883cc34cce/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+408    </application>
+409
+410</manifest>

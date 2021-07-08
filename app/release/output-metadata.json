@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "sigma.telkomgroup",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 3452,
+      "versionName": "3.4.52",
+      "enabled": true,
+      "outputFile": "app-release.apk"
+    }
+  ]
+}

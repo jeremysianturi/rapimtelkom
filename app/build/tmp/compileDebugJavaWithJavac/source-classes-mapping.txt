@@ -1,0 +1,327 @@
+sigma/telkomgroup/controller/ControllerGame2019.java
+ sigma.telkomgroup.controller.ControllerGame2019
+ sigma.telkomgroup.controller.ControllerGame2019$1
+sigma/telkomgroup/controller/ControllerRundown.java
+ sigma.telkomgroup.controller.ControllerRundown
+ sigma.telkomgroup.controller.ControllerRundown$1
+ sigma.telkomgroup.controller.ControllerRundown$showRundown
+ sigma.telkomgroup.controller.ControllerRundown$showRundown$1
+sigma/telkomgroup/controller/SplashScreen.java
+ sigma.telkomgroup.controller.SplashScreen
+ sigma.telkomgroup.controller.SplashScreen$1
+ sigma.telkomgroup.controller.SplashScreen$2
+ sigma.telkomgroup.controller.SplashScreen$3
+ sigma.telkomgroup.controller.SplashScreen$4
+ sigma.telkomgroup.controller.SplashScreen$checkVersion
+ sigma.telkomgroup.controller.SplashScreen$checkVersion$1
+ sigma.telkomgroup.controller.SplashScreen$checkVersion$DownloadFile
+sigma/telkomgroup/utils/PhotoUtil.java
+ sigma.telkomgroup.utils.PhotoUtil
+sigma/telkomgroup/controller/ControllerShoutbox.java
+ sigma.telkomgroup.controller.ControllerShoutbox
+ sigma.telkomgroup.controller.ControllerShoutbox$1
+ sigma.telkomgroup.controller.ControllerShoutbox$checkWasSubmit
+ sigma.telkomgroup.controller.ControllerShoutbox$showOption
+ sigma.telkomgroup.controller.ControllerShoutbox$showOption$1
+sigma/telkomgroup/model/ModelFeedback.java
+ sigma.telkomgroup.model.ModelFeedback
+sigma/telkomgroup/controller/ControllerQRCode.java
+ sigma.telkomgroup.controller.ControllerQRCode
+ sigma.telkomgroup.controller.ControllerQRCode$1
+ sigma.telkomgroup.controller.ControllerQRCode$2
+ sigma.telkomgroup.controller.ControllerQRCode$3
+ sigma.telkomgroup.controller.ControllerQRCode$DownloadImageTask
+sigma/telkomgroup/controller/ControllerLogin.java
+ sigma.telkomgroup.controller.ControllerLogin
+ sigma.telkomgroup.controller.ControllerLogin$1
+ sigma.telkomgroup.controller.ControllerLogin$2
+ sigma.telkomgroup.controller.ControllerLogin$LoginProcess
+sigma/telkomgroup/adapter/AdapterSetting.java
+ sigma.telkomgroup.adapter.AdapterSetting
+sigma/telkomgroup/parser/PostJSON.java
+ sigma.telkomgroup.parser.PostJSON
+sigma/telkomgroup/utils/firebase/MyFirebaseMessagingService.java
+ sigma.telkomgroup.utils.firebase.MyFirebaseMessagingService
+sigma/telkomgroup/adapter/AdapterQuestion.java
+ sigma.telkomgroup.adapter.AdapterQuestion
+sigma/telkomgroup/utils/CheckConnection.java
+ sigma.telkomgroup.utils.CheckConnection
+sigma/telkomgroup/controller/ControllerGallery.java
+ sigma.telkomgroup.controller.ControllerGallery
+ sigma.telkomgroup.controller.ControllerGallery$1
+ sigma.telkomgroup.controller.ControllerGallery$2
+ sigma.telkomgroup.controller.ControllerGallery$2$1
+ sigma.telkomgroup.controller.ControllerGallery$3
+sigma/telkomgroup/BuildConfig.java
+ sigma.telkomgroup.BuildConfig
+sigma/telkomgroup/model/ModelPolling.java
+ sigma.telkomgroup.model.ModelPolling
+sigma/telkomgroup/utils/TouchImageView.java
+ sigma.telkomgroup.utils.TouchImageView
+ sigma.telkomgroup.utils.TouchImageView$1
+ sigma.telkomgroup.utils.TouchImageView$ScaleListener
+sigma/telkomgroup/utils/FileCache.java
+ sigma.telkomgroup.utils.FileCache
+sigma/telkomgroup/controller/ControllerAgendaContent.java
+ sigma.telkomgroup.controller.ControllerAgendaContent
+ sigma.telkomgroup.controller.ControllerAgendaContent$1
+ sigma.telkomgroup.controller.ControllerAgendaContent$showAgenda
+ sigma.telkomgroup.controller.ControllerAgendaContent$showAgenda$1
+sigma/telkomgroup/controller/ControllerVenue.java
+ sigma.telkomgroup.controller.ControllerVenue
+ sigma.telkomgroup.controller.ControllerVenue$1
+ sigma.telkomgroup.controller.ControllerVenue$HelloWebViewClient
+ sigma.telkomgroup.controller.ControllerVenue$showGalery
+sigma/telkomgroup/controller/ControllerFeedback.java
+ sigma.telkomgroup.controller.ControllerFeedback
+ sigma.telkomgroup.controller.ControllerFeedback$1
+ sigma.telkomgroup.controller.ControllerFeedback$2
+ sigma.telkomgroup.controller.ControllerFeedback$3
+ sigma.telkomgroup.controller.ControllerFeedback$4
+ sigma.telkomgroup.controller.ControllerFeedback$5
+ sigma.telkomgroup.controller.ControllerFeedback$showQuisioner
+sigma/telkomgroup/controller/ControllerProfil.java
+ sigma.telkomgroup.controller.ControllerProfil
+ sigma.telkomgroup.controller.ControllerProfil$1
+sigma/telkomgroup/controller/ControllerNews.java
+ sigma.telkomgroup.controller.ControllerNews
+ sigma.telkomgroup.controller.ControllerNews$1
+ sigma.telkomgroup.controller.ControllerNews$showNews
+ sigma.telkomgroup.controller.ControllerNews$showNews$1
+sigma/telkomgroup/controller/ControllerAbout.java
+ sigma.telkomgroup.controller.ControllerAbout
+sigma/telkomgroup/adapter/AdapterVenue.java
+ sigma.telkomgroup.adapter.AdapterVenue
+ sigma.telkomgroup.adapter.AdapterVenue$1
+ sigma.telkomgroup.adapter.AdapterVenue$MyViewHolder
+sigma/telkomgroup/adapter/AdapterRundown.java
+ sigma.telkomgroup.adapter.AdapterRundown
+sigma/telkomgroup/controller/ControllerSelfie.java
+ sigma.telkomgroup.controller.ControllerSelfie
+ sigma.telkomgroup.controller.ControllerSelfie$1
+ sigma.telkomgroup.controller.ControllerSelfie$2
+ sigma.telkomgroup.controller.ControllerSelfie$3
+ sigma.telkomgroup.controller.ControllerSelfie$4
+ sigma.telkomgroup.controller.ControllerSelfie$submitSelfie
+sigma/telkomgroup/model/ModelContent.java
+ sigma.telkomgroup.model.ModelContent
+sigma/telkomgroup/controller/ControllerPollingChoice.java
+ sigma.telkomgroup.controller.ControllerPollingChoice
+ sigma.telkomgroup.controller.ControllerPollingChoice$1
+ sigma.telkomgroup.controller.ControllerPollingChoice$showQuestion
+ sigma.telkomgroup.controller.ControllerPollingChoice$showQuestion$1
+sigma/telkomgroup/adapter/AdapterNavigation.java
+ sigma.telkomgroup.adapter.AdapterNavigation
+ sigma.telkomgroup.adapter.AdapterNavigation$MyViewHolder
+sigma/telkomgroup/controller/ControllerDetailNews.java
+ sigma.telkomgroup.controller.ControllerDetailNews
+sigma/telkomgroup/model/ModelShoutbox.java
+ sigma.telkomgroup.model.ModelShoutbox
+sigma/telkomgroup/drawer/NavDrawerItem.java
+ sigma.telkomgroup.drawer.NavDrawerItem
+sigma/telkomgroup/model/ModelBanner.java
+ sigma.telkomgroup.model.ModelBanner
+sigma/telkomgroup/utils/AppSingleton.java
+ sigma.telkomgroup.utils.AppSingleton
+ sigma.telkomgroup.utils.AppSingleton$1
+sigma/telkomgroup/model/ModelVenue.java
+ sigma.telkomgroup.model.ModelVenue
+sigma/telkomgroup/adapter/AdapterMyAgenda.java
+ sigma.telkomgroup.adapter.AdapterMyAgenda
+sigma/telkomgroup/utils/firebase/FirebaseDataReceiver.java
+ sigma.telkomgroup.utils.firebase.FirebaseDataReceiver
+sigma/telkomgroup/controller/ControllerQRScanner.java
+ sigma.telkomgroup.controller.ControllerQRScanner
+sigma/telkomgroup/model/ModelUser.java
+ sigma.telkomgroup.model.ModelUser
+sigma/telkomgroup/utils/MemoryCache.java
+ sigma.telkomgroup.utils.MemoryCache
+sigma/telkomgroup/adapter/AdapterContent.java
+ sigma.telkomgroup.adapter.AdapterContent
+sigma/telkomgroup/model/ModelRole.java
+ sigma.telkomgroup.model.ModelRole
+sigma/telkomgroup/model/ModelGallery.java
+ sigma.telkomgroup.model.ModelGallery
+sigma/telkomgroup/controller/ControllerPollingQuestion.java
+ sigma.telkomgroup.controller.ControllerPollingQuestion
+ sigma.telkomgroup.controller.ControllerPollingQuestion$1
+ sigma.telkomgroup.controller.ControllerPollingQuestion$showQuestion
+ sigma.telkomgroup.controller.ControllerPollingQuestion$showQuestion$1
+sigma/telkomgroup/controller/ControllerVenueZoom.java
+ sigma.telkomgroup.controller.ControllerVenueZoom
+ sigma.telkomgroup.controller.ControllerVenueZoom$DownloadImageTask
+sigma/telkomgroup/model/ModelRundown.java
+ sigma.telkomgroup.model.ModelRundown
+sigma/telkomgroup/utils/FileDownloader.java
+ sigma.telkomgroup.utils.FileDownloader
+sigma/telkomgroup/controller/ControllerAgendaVenue.java
+ sigma.telkomgroup.controller.ControllerAgendaVenue
+ sigma.telkomgroup.controller.ControllerAgendaVenue$1
+ sigma.telkomgroup.controller.ControllerAgendaVenue$showAgenda
+ sigma.telkomgroup.controller.ControllerAgendaVenue$showAgenda$1
+sigma/telkomgroup/controller/ControllerWebview.java
+ sigma.telkomgroup.controller.ControllerWebview
+ sigma.telkomgroup.controller.ControllerWebview$1
+sigma/telkomgroup/controller/MainActivity.java
+ sigma.telkomgroup.controller.MainActivity
+ sigma.telkomgroup.controller.MainActivity$1
+ sigma.telkomgroup.controller.MainActivity$2
+ sigma.telkomgroup.controller.MainActivity$DownloadFile
+ sigma.telkomgroup.controller.MainActivity$LoginProcess
+ sigma.telkomgroup.controller.MainActivity$checkVersion
+ sigma.telkomgroup.controller.MainActivity$checkVersion$1
+sigma/telkomgroup/controller/ControllerPanel.java
+ sigma.telkomgroup.controller.ControllerPanel
+ sigma.telkomgroup.controller.ControllerPanel$1
+ sigma.telkomgroup.controller.ControllerPanel$10
+ sigma.telkomgroup.controller.ControllerPanel$11
+ sigma.telkomgroup.controller.ControllerPanel$12
+ sigma.telkomgroup.controller.ControllerPanel$12$1
+ sigma.telkomgroup.controller.ControllerPanel$13
+ sigma.telkomgroup.controller.ControllerPanel$2
+ sigma.telkomgroup.controller.ControllerPanel$3
+ sigma.telkomgroup.controller.ControllerPanel$4
+ sigma.telkomgroup.controller.ControllerPanel$5
+ sigma.telkomgroup.controller.ControllerPanel$6
+ sigma.telkomgroup.controller.ControllerPanel$7
+ sigma.telkomgroup.controller.ControllerPanel$8
+ sigma.telkomgroup.controller.ControllerPanel$9
+sigma/telkomgroup/utils/InOutUtils.java
+ sigma.telkomgroup.utils.InOutUtils
+sigma/telkomgroup/controller/TouchImageView.java
+ sigma.telkomgroup.controller.TouchImageView
+ sigma.telkomgroup.controller.TouchImageView$1
+ sigma.telkomgroup.controller.TouchImageView$ScaleListener
+sigma/telkomgroup/controller/ControlerLinkAja.java
+ sigma.telkomgroup.controller.ControlerLinkAja
+sigma/telkomgroup/controller/ControllerHome.java
+ sigma.telkomgroup.controller.ControllerHome
+ sigma.telkomgroup.controller.ControllerHome$1
+ sigma.telkomgroup.controller.ControllerHome$10
+ sigma.telkomgroup.controller.ControllerHome$11
+ sigma.telkomgroup.controller.ControllerHome$11$1
+ sigma.telkomgroup.controller.ControllerHome$12
+ sigma.telkomgroup.controller.ControllerHome$13
+ sigma.telkomgroup.controller.ControllerHome$14
+ sigma.telkomgroup.controller.ControllerHome$2
+ sigma.telkomgroup.controller.ControllerHome$3
+ sigma.telkomgroup.controller.ControllerHome$4
+ sigma.telkomgroup.controller.ControllerHome$5
+ sigma.telkomgroup.controller.ControllerHome$5$1
+ sigma.telkomgroup.controller.ControllerHome$5$2
+ sigma.telkomgroup.controller.ControllerHome$6
+ sigma.telkomgroup.controller.ControllerHome$7
+ sigma.telkomgroup.controller.ControllerHome$8
+ sigma.telkomgroup.controller.ControllerHome$9
+ sigma.telkomgroup.controller.ControllerHome$countNews
+sigma/telkomgroup/connection/dbConnection.java
+ sigma.telkomgroup.connection.dbConnection
+sigma/telkomgroup/controller/MapsActivity.java
+ sigma.telkomgroup.controller.MapsActivity
+sigma/telkomgroup/utils/TakePhotoUtil.java
+ sigma.telkomgroup.utils.TakePhotoUtil
+sigma/telkomgroup/controller/ControllereDetailRundown.java
+ sigma.telkomgroup.controller.ControllereDetailRundown
+sigma/telkomgroup/adapter/AdapterNews.java
+ sigma.telkomgroup.adapter.AdapterNews
+sigma/telkomgroup/model/ModelGetFeedback.java
+ sigma.telkomgroup.model.ModelGetFeedback
+sigma/telkomgroup/utils/ImageLoader.java
+ sigma.telkomgroup.utils.ImageLoader
+ sigma.telkomgroup.utils.ImageLoader$BitmapDisplayer
+ sigma.telkomgroup.utils.ImageLoader$PhotoToLoad
+ sigma.telkomgroup.utils.ImageLoader$PhotosLoader
+ sigma.telkomgroup.utils.ImageLoader$PhotosQueue
+sigma/telkomgroup/model/ModelVersion.java
+ sigma.telkomgroup.model.ModelVersion
+sigma/telkomgroup/model/ModelQuesioner.java
+ sigma.telkomgroup.model.ModelQuesioner
+sigma/telkomgroup/model/ModelChoice.java
+ sigma.telkomgroup.model.ModelChoice
+sigma/telkomgroup/controller/ControllerContent.java
+ sigma.telkomgroup.controller.ControllerContent
+ sigma.telkomgroup.controller.ControllerContent$1
+ sigma.telkomgroup.controller.ControllerContent$DownloadFile
+ sigma.telkomgroup.controller.ControllerContent$showContent
+ sigma.telkomgroup.controller.ControllerContent$showContent$1
+sigma/telkomgroup/controller/ControllerSetting.java
+ sigma.telkomgroup.controller.ControllerSetting
+ sigma.telkomgroup.controller.ControllerSetting$1
+ sigma.telkomgroup.controller.ControllerSetting$1$1
+sigma/telkomgroup/adapter/AdapterPollingChoice.java
+ sigma.telkomgroup.adapter.AdapterPollingChoice
+sigma/telkomgroup/connection/ConstantUtil.java
+ sigma.telkomgroup.connection.ConstantUtil
+ sigma.telkomgroup.connection.ConstantUtil$BANNER
+ sigma.telkomgroup.connection.ConstantUtil$CHECK_SHOUTBOX
+ sigma.telkomgroup.connection.ConstantUtil$CHECK_VERSION
+ sigma.telkomgroup.connection.ConstantUtil$CHOICE
+ sigma.telkomgroup.connection.ConstantUtil$CONTENT
+ sigma.telkomgroup.connection.ConstantUtil$GALLERY
+ sigma.telkomgroup.connection.ConstantUtil$LOGIN
+ sigma.telkomgroup.connection.ConstantUtil$MEETING
+ sigma.telkomgroup.connection.ConstantUtil$NEWS
+ sigma.telkomgroup.connection.ConstantUtil$POLLING
+ sigma.telkomgroup.connection.ConstantUtil$QUISIONER
+ sigma.telkomgroup.connection.ConstantUtil$RUNDOWN
+ sigma.telkomgroup.connection.ConstantUtil$SHOUTBOX
+ sigma.telkomgroup.connection.ConstantUtil$SUBMIT_FEEDBACK
+ sigma.telkomgroup.connection.ConstantUtil$SUBMIT_POLLING
+ sigma.telkomgroup.connection.ConstantUtil$SUBMIT_SELFIE
+ sigma.telkomgroup.connection.ConstantUtil$SUBMIT_SHOUT
+ sigma.telkomgroup.connection.ConstantUtil$URL
+ sigma.telkomgroup.connection.ConstantUtil$VENUE
+sigma/telkomgroup/utils/QRCodeEncoder.java
+ sigma.telkomgroup.utils.QRCodeEncoder
+sigma/telkomgroup/controller/MultiTouchActivity.java
+ sigma.telkomgroup.controller.MultiTouchActivity
+ sigma.telkomgroup.controller.MultiTouchActivity$DownloadImageTask
+sigma/telkomgroup/controller/ControllerAgendaRundown.java
+ sigma.telkomgroup.controller.ControllerAgendaRundown
+ sigma.telkomgroup.controller.ControllerAgendaRundown$1
+ sigma.telkomgroup.controller.ControllerAgendaRundown$showAgenda
+ sigma.telkomgroup.controller.ControllerAgendaRundown$showAgenda$1
+sigma/telkomgroup/adapter/AdapterGalleryGrid.java
+ sigma.telkomgroup.adapter.AdapterGalleryGrid
+sigma/telkomgroup/utils/SessionManager.java
+ sigma.telkomgroup.utils.SessionManager
+sigma/telkomgroup/controller/ControllerGames.java
+ sigma.telkomgroup.controller.ControllerGames
+ sigma.telkomgroup.controller.ControllerGames$1
+sigma/telkomgroup/model/ModelMeeting.java
+ sigma.telkomgroup.model.ModelMeeting
+sigma/telkomgroup/drawer/FragmentDrawer.java
+ sigma.telkomgroup.drawer.FragmentDrawer
+ sigma.telkomgroup.drawer.FragmentDrawer$1
+ sigma.telkomgroup.drawer.FragmentDrawer$2
+ sigma.telkomgroup.drawer.FragmentDrawer$3
+ sigma.telkomgroup.drawer.FragmentDrawer$ClickListener
+ sigma.telkomgroup.drawer.FragmentDrawer$FragmentDrawerListener
+ sigma.telkomgroup.drawer.FragmentDrawer$RecyclerTouchListener
+ sigma.telkomgroup.drawer.FragmentDrawer$RecyclerTouchListener$1
+sigma/telkomgroup/model/ModelNews.java
+ sigma.telkomgroup.model.ModelNews
+sigma/telkomgroup/utils/Contents.java
+ sigma.telkomgroup.utils.Contents
+ sigma.telkomgroup.utils.Contents$Type
+sigma/telkomgroup/utils/CustomImageView.java
+ sigma.telkomgroup.utils.CustomImageView
+sigma/telkomgroup/adapter/AdapterPollingQuestion.java
+ sigma.telkomgroup.adapter.AdapterPollingQuestion
+sigma/telkomgroup/model/ModelHistory.java
+ sigma.telkomgroup.model.ModelHistory
+sigma/telkomgroup/controller/ControllerQuestionHistory.java
+ sigma.telkomgroup.controller.ControllerQuestionHistory
+ sigma.telkomgroup.controller.ControllerQuestionHistory$1
+ sigma.telkomgroup.controller.ControllerQuestionHistory$getQuestionHistory
+sigma/telkomgroup/utils/firebase/MyFirebaseInstanceIDService.java
+ sigma.telkomgroup.utils.firebase.MyFirebaseInstanceIDService
+sigma/telkomgroup/adapter/AdapterHistory.java
+ sigma.telkomgroup.adapter.AdapterHistory
+sigma/telkomgroup/controller/ControllerPolling.java
+ sigma.telkomgroup.controller.ControllerPolling
+ sigma.telkomgroup.controller.ControllerPolling$1
+ sigma.telkomgroup.controller.ControllerPolling$showQuestion
+sigma/telkomgroup/controller/ControllerGalleryDetail.java
+ sigma.telkomgroup.controller.ControllerGalleryDetail
+ sigma.telkomgroup.controller.ControllerGalleryDetail$1

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-sdk:16.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68ed3c67bec23473ab246c154f873a80/jetified-play-services-measurement-sdk-16.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68ed3c67bec23473ab246c154f873a80/jetified-play-services-measurement-sdk-16.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68ed3c67bec23473ab246c154f873a80/jetified-play-services-measurement-sdk-16.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/250180ad62d0c7264e5c657539174874/jetified-play-services-measurement-sdk-16.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5bc42acc81138aa8f8fcf89dc12ec9a/jetified-play-services-measurement-sdk-16.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5bc42acc81138aa8f8fcf89dc12ec9a/jetified-play-services-measurement-sdk-16.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5bc42acc81138aa8f8fcf89dc12ec9a/jetified-play-services-measurement-sdk-16.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/865e4b4f2b29c924c876ccfee0dc7637/jetified-play-services-measurement-sdk-16.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/865e4b4f2b29c924c876ccfee0dc7637/jetified-play-services-measurement-sdk-16.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/865e4b4f2b29c924c876ccfee0dc7637/jetified-play-services-measurement-sdk-16.4.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-sdk/16.4.0/88561e7c3615c80f0579c3ac4ee9d8ae8bd7df61/play-services-measurement-sdk-16.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

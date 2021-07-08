@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "sigma.telkomgroup",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 3454,
+      "versionName": "3.4.54",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}
